@@ -9,6 +9,7 @@ body{
 .body_img{
   background-image: url('Poster.png');
   background-repeat: no-repeat;
+  max-width: 100%;
   height: 110vh;
 position: relative;
   background-attachment: fixed;
@@ -28,7 +29,7 @@ grid-gap: 0.2em;
 justify-content: center;
 }
 .img_text{
-  padding-top: 35vh;
+
   font-family: DM Sans;
 font-size: 48px;
 font-weight: 700;
@@ -54,7 +55,14 @@ text-align: left;
 
 
 
-@media(max-width: 780px) {
-.bodyy{
+@media only screen and (max-width: 780px) {
+.wrap_text{
+padding-top: 15vh;
+
+}
+}
+@media only screen and (min-width: 780px) {
+.wrap_text{
+  padding-top: 19vh;
 }
 }

@@ -13,7 +13,7 @@ function NavbarNav() {
   return (
     <Navbar
       expand="lg"
-      fixed="top"
+    /*   fixed="top" */
       /* class="bg_light" className="bgcolor" */ className="bg_col"
     >
       <Container>

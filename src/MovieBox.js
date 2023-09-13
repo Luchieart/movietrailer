@@ -1,7 +1,8 @@
 import React from 'react';
+import Rating from './assets/Rating.png'
 
 const API_IMG='https://image.tmdb.org/t/p/w500/'
-const MovieBox =({titel,poster_path,vote_average,release_date,overview})=>{
+const MovieBox =({titel,poster_path,vote_average,release_date,overview,popularity})=>{
     return(
         <>
      
@@ -10,8 +11,11 @@ const MovieBox =({titel,poster_path,vote_average,release_date,overview})=>{
 <img className='card-img-top' src={API_IMG+poster_path}/>
             </div>
 <h1>Titel</h1>
+
 <img src={API_IMG+poster_path}></img>
+<img src={Rating} className="icon px-2 py-1" alt="Rating" />
 <p>{overview}</p>
+
         </div>
         </>
     )
