@@ -16,6 +16,7 @@ const MovieBox = ({
         <div className="card text-center bg-s mb-3">
           <div className="card-body">
             <img className="card-img-top" src={API_IMG + poster_path} />
+            <img src={Rating} className="icon px-2 py-1" alt="Rating" />
           </div>
           <h1>Titel</h1>
 
