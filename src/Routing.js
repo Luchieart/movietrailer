@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import ReactDOM from 'react-dom/client';
 import {  BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
-import MovieBox from './MovieBox';
+import MovieApp from './pages/index';
 
 const Routing = () => {
     useEffect(() => {
@@ -15,7 +15,7 @@ const Routing = () => {
        <AnimatePresence>
          <Router>
          <Routes>
-             <Route path="/" element={<MovieBox />} />
+             <Route path="/" element={<MovieApp />} />
              {/* <Route path="/products" element={<Products />} />
              <Route path="/about" element={<About />} /> */}
           </Routes>

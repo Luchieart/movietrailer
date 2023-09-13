@@ -1,5 +1,5 @@
 import React from "react";
-import Rating from "./assets/Rating.png";
+import Rating from "../assets/Rating.png";
 
 const API_IMG = "https://image.tmdb.org/t/p/w500/";
 const MovieBox = ({

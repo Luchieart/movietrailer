@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from './assets/Logo.png'
-import Menu from './assets/Menu.png'
+import logo from '../assets/Logo.png'
+import Menu from '../assets/Menu.png'
 import React from "react";
 import "./navbar.css";
 import Container from "react-bootstrap/Container";
